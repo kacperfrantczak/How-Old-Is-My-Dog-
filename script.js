@@ -16,4 +16,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
     const humanAge = ageInYears * 7;
 
     alert(`${dogName} is ${humanAge} years old in human years.`);
+
+    const form = document.querySelector('form');
+    form.reset();
 });
