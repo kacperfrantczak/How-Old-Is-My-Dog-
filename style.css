@@ -143,3 +143,8 @@ footer a{
     color: #242325;
     text-decoration: none;
 }
+
+footer img{
+    width: 60px;
+    height: 60px;
+}
