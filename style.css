@@ -128,3 +128,18 @@ body{
     }   
 }
 
+footer{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: #242325;
+    animation: animate 0.8s ease-in-out both;
+}
+
+footer a{
+    color: #242325;
+    text-decoration: none;
+}
