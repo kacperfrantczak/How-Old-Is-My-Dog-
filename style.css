@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Doto:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #bbb891;
+    color: #242325;
+}
+
+.title{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 4.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    animation: animate 0.8s ease-in-out both;
+}
+
+
+/* Animacja tytułu */
+
+@keyframes animate {
+    0%{
+        letter-spacing: -0.5rem;
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100%{
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    animation: animate 0.8s ease-in-out both;
+}
+
+.form-box{
+    width: 100%;
+    max-width: 500px;
+    background-color: #dc965a;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+}
+
+.form-box h2{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form-box form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box form label{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-box form input{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: #c8c8c8;
+}
+
+.form-box form button{
+    padding: 0.5rem;
+    background-color: #242325;
+    color: #c8c8c8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
